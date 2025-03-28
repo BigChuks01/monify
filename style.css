@@ -1,0 +1,514 @@
+body {
+    margin: 0%;
+    background-color: white;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(114, 114, 194)
+}
+.contact {
+    display: flex;
+    margin: 10px;
+}
+.socials {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.logo-text {
+    font-size: 30px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -380px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu {
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu li {
+    padding: 20px;
+}
+.submit {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.welcome {
+    background-image: url(workwers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-self: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+}
+.well-text {
+    border: solid 2px transparent;
+    box-shadow: inset 0 0 10px black;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.type {
+    width: 200px;
+    height: 50px;
+    margin-left: -180px;
+    margin-top: 25px;
+    color: white;
+    background-color: rgb(83, 83, 230);
+}
+.icon {
+    display: flex;
+    background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around
+}
+.open i {
+   padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+}
+.agent i {
+    padding: 20px;
+     border-radius: 30px;
+     background-color: white;
+ }
+ .banking i {
+    padding: 20px;
+     border-radius: 30px;
+     background-color: white;
+ }
+ .us i {
+    padding: 20px;
+     border-radius: 30px;
+     background-color: white;
+ }
+ .find i {
+    padding: 20px;
+     border-radius: 30px;
+     background-color: white;
+ }
+h3 {
+  text-align: center;
+  color: white;
+  font: 1em sans-serif;
+  margin: 5px;
+  padding-top: 10px;
+}
+.about-container {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-top:4rem ;
+    background-color: rgb(219, 219, 236);
+}
+.about-icon {
+    display: flex;
+}
+.serve {
+    display: flex;
+    border: solid 2px white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 5px;
+}
+.serve :hover {
+    background-color: rgb(83, 83, 230);
+ }
+.innovative {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.profession  {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.support {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.about {
+   padding-left: 80px;
+    padding-top: -20px;
+}
+.about h3 {
+    font-size: 2rem;
+    color: black;
+}
+.about p {
+    font-size: 1rem;
+    text-align: start;
+}
+.abt-us {
+    text-align: center;
+    color: blue;
+    padding-top: -15px;
+}
+.abt-img{
+    margin-top: -8rem;
+    padding: 2rem;
+    width: 30rem;
+}
+.nav-icons{
+    align-content: center;
+}
+.about-icon {
+    padding-left: 4rem;
+}
+span {
+    font-size: x-large;
+}
+.features {
+    text-align: center;
+}
+.feature h4 {
+    color:blue;
+    font-size: x-large;
+}
+.feature h2 {
+    font-size: xx-large;
+    font-family: 4rem 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.feature-serve {
+    display: flex;
+    text-align: center;
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.feature-serve :hover {
+    background-color: rgb(83, 83, 230);
+    border-radius: 1rem;
+}
+.feature-img {
+    width: 200px;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+.service {
+    display: flex;
+    padding: 5rem;
+}
+.service-con {
+    display: flex;
+    padding: 5rem;
+}
+.work {
+    margin-top: -6rem;
+    margin-left: -2rem;
+    padding: 30px;
+}
+.work-h4 {
+    color: rgb(83, 83, 230);
+    font-size: larger;
+    font-family: 'Arial Narrow', Arial,;
+}
+.work-h2 {
+    color: black;
+    font-size: xx-large;
+    font-family: 'Arial Narrow', Arial,;
+}
+
+.manage {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+}
+.report {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+}
+.audit {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.plan {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.profit {
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 30px;
+}
+.recommendation {
+    background-color: rgb(83, 83, 230);
+}
+.recommend {
+    text-align: left;
+    padding-left: 8rem;
+    color:  white
+}
+.recommend-h4 {
+    font-size: xx-large;
+    font: sans-serif;
+}
+.recommend-me {
+    display: flex;
+    background-color: rgb(83, 83, 230);
+}
+.recommend-me h2 {
+    text-align: center;
+    color: white;
+}
+.recommend-us {
+    display: flex;
+    background-color: rgb(83, 83, 230);
+}
+.recommend-us h2 {
+    text-align: center;
+    color: white;
+    padding-top: -100rem;
+}
+.recommned-img {
+    width: 350px;
+    padding: 3rem;
+    border-radius: 5rem;
+}
+.account-img {
+    width: 350px;
+    height: 230px;
+    border-radius: 3rem;
+    padding-top: 1rem;
+}
+.recommend-me h2 {
+    margin-top: -3rem;
+}
+.recommend-us h2 {
+    margin-top: -3rem;
+    padding-bottom: 5rem;
+}
+.blog {
+    display: flex;
+    color: rgb(83, 83, 230);
+}
+.blog-h4 {
+    color: rgb(83, 83, 230);
+    font-size: x-large;
+}
+.work {
+    text-align: center;
+    padding-top: 10rem;
+}
+.blog-img {
+    width: 380px;
+}
+.culture-img {
+    width: 400px;
+    height: 250px;
+}
+.previous {
+    padding-top: 2rem;
+    text-align: center;
+    color: rgb(83, 83, 230);;
+}
+.closures {
+    background-color: rgb(83, 83, 230);
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.closure {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+}
+
+.closure-icons{
+    font-size: 30px;
+    align-content: center;
+}
+hr {
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+.closure-logo {
+    width: 100px;
+    background-color: rgb(83, 83, 230);;
+}
+
+.closure-monify {
+    display: flex;
+}
+.closure-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.closure-con{
+    text-align: center;
+}
+.btn{
+    display: none;
+}
+@media (max-width : 900px) {
+    .btn{
+        display: flex;
+    }
+    .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: -200%;
+    width: 45%;
+    height: 80vh;
+    transition: 0.5s;
+    background-color: rgb(83, 83, 230);
+    color: black;
+    float: right;
+    text-align: center;
+    }
+    .menu li{
+        margin: 5px;
+        display: inline;
+        text-align: center;
+        line-height: 20px;
+        float: right;
+    }
+    .menu li :hover {
+        color: white;
+    }
+    .menu.active{
+        left: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .socials {
+        display: block;
+    }
+    .logo-text {
+        margin-left: -1px;
+    }
+    .well-text {
+       justify-content: center;
+    }
+    .icon {
+        text-align: center;
+    }
+    .about-container {
+        display: block;
+        text-align: center;
+    }
+    .about-icon {
+        margin-left: 7rem;
+    }
+    .about {
+        margin-right: 4rem;
+    }
+    .about p {
+        text-align: center;
+    }
+    .serve {
+        display: block;
+        text-align: center;
+        padding: 2rem;
+    }
+    .feature-serve {
+        display: block;
+        text-align: center;
+        margin: 2rem;
+    }
+    .service {
+        display: block;
+        text-align: center;
+        margin: -2.5rem;
+    }
+    .service-con {
+        display: block;
+        text-align: center;
+        margin: -2.5rem;
+    }
+    .recommend {
+        display: block;
+        text-align: center;
+        padding-right: 8rem;
+        padding-top: 1rem;
+    }
+    .recommend-me {
+        display: block;
+        text-align: center;
+    }
+    .recommend-us {
+        display: block;
+        text-align: center;
+    }
+    .recommend-us h2 {
+        padding-bottom: -0rem;
+    }
+    .blog {
+        display: block;
+        text-align: center;
+        margin: 2.5rem;
+    }
+    .closure-tab {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+
