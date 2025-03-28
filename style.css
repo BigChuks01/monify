@@ -461,7 +461,11 @@ hr {
     }
     .about p {
         text-align: center;
-    }
+    .abt-img {
+        display:flex;
+        text align: center;
+        width:250px;
+     }
     .serve {
         display: block;
         text-align: center;
